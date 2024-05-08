@@ -8,13 +8,11 @@
 
 
 
-const user = {
-    username: "hitesh",
-    price: 199
+
+
+
+function returnSecondValue(getArray){
+    return getArray[1]
 }
 
-function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
-}
-
-handleObject(user)
+console.log(returnSecondValue([200, 400, 100, 600]));
